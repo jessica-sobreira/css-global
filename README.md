@@ -12,7 +12,7 @@ Este código contém a implementação da "Mini Loja" usando a técnica de CSS G
 
 **Componentes**: Os principais componentes são Navbar, ProductCard, Button e Skeleton.
 
-##Como executar
+## Como executar
 
 - Certifique-se de que o Node.js e o npm estão instalados.
 
