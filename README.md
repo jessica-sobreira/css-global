@@ -1,12 +1,23 @@
-# React + Vite
+# Mini loja com CSS Global
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este código contém a implementação da "Mini Loja" usando a técnica de CSS Global.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Estilização**: O design e o layout são gerenciados por um único arquivo CSS (global.css) importado no componente principal (App.jsx).
 
-## Expanding the ESLint configuration
+**Responsividade**: A responsividade é controlada por media queries no arquivo CSS, garantindo que o grid de produtos se adapte aos diferentes tamanhos de tela.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tema Claro/Escuro**: As cores do tema são definidas usando variáveis CSS e alternadas com uma classe no elemento html, garantindo a persistência via localStorage.
+
+**Componentes**: Os principais componentes são Navbar, ProductCard, Button e Skeleton.
+
+##Como executar
+
+- Certifique-se de que o Node.js e o npm estão instalados.
+
+- Navegue até a pasta do projeto.
+
+- Execute npm install para instalar as dependências.
+
+- Execute npm run dev para iniciar o servidor de desenvolvimento.
